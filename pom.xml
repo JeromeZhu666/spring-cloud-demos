@@ -43,5 +43,6 @@
         <module>eureka-client</module>
         <module>ribbon-consumer</module>
         <module>feign-consumer</module>
+        <module>zuul-gateway</module>
     </modules>
 </project>
