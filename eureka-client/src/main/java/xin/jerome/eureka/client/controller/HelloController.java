@@ -21,7 +21,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         ServiceInstance instances = client.getInstances("hello-service").get(0);
-        System.out.println(instances.getServiceId() +"-"+ instances.getHost() +"-"+ instances.getPort());
+        System.out.println(instances.getServiceId() + "-" + instances.getHost() + "-" + instances.getPort());
         return "hello word!";
     }
 
